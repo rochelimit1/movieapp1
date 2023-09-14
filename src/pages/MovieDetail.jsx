@@ -17,6 +17,7 @@ export default function MovieDetail() {
         <div>
           <div style={{ fontSize: '32px' }}>{title}</div>
         </div>
+        <p>{state.overview}</p>
       </div>
     </div>
   );
