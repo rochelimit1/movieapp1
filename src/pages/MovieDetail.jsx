@@ -15,7 +15,7 @@ export default function MovieDetail() {
         }}
       >
         <img
-          style={{ width: '300px', height: '450px' }}
+          style={{ width: '350px', height: '550px' }}
           src={IMG_BASE_URL + state.poster_path}
           alt='영화 포스터 이미지'
         />
