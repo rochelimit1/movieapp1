@@ -31,7 +31,7 @@ export default function NotFound() {
         style={{
           fontSize: '32px',
           lineHeight: '1.6',
-          color: 'red',
+          color: 'blue',
           cursor: 'pointer',
         }}
       >
