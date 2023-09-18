@@ -1,4 +1,7 @@
 @import 'reset.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   background-color: #fff;
@@ -129,4 +132,30 @@ body {
 
 .tv-info span {
   margin-left: 3px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left-wrap {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header-left-wrap ul {
+  display: flex;
+}
+
+.header-left-wrap li:not(:last-child) {
+  margin-right: 16px; /* 각 리스트 아이템 사이에 공간을 주기 위해 */
 }

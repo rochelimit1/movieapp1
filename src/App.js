@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Tvs from './pages/Tvs';
-import Celebrity from './pages/Celebrity';
+
 import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import Header from './components/Header';
@@ -10,6 +10,7 @@ import MovieDetail from './pages/MovieDetail';
 
 import React from 'react';
 import TvDetail from './pages/TvDetail';
+import Celebrities from './pages/Celebrities';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Route path='/tv/:id' element={<TvDetail />} />
 
           <Route path='/tv' element={<Tvs />} />
-          <Route path='/person' element={<Celebrity />} />
+          <Route path='/person' element={<Celebrities />} />
           <Route path='/*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>

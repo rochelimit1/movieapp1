@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 import { IMG_BASE_URL } from '../components/Movie';
-import { flushSync } from 'react-dom';
 
 export default function MovieDetail() {
   const { title } = useParams();
