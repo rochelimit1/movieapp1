@@ -17,7 +17,7 @@ export default function Home() {
         color: '#fff', // white color for the text
       }}
     >
-      <h2>Welcome to My Movie App</h2>
+      <h1>Welcome to My Movie Web</h1>
     </div>
   );
 }
