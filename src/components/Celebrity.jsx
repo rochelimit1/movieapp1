@@ -7,17 +7,17 @@ export default function Celebrity(props) {
   const navigate = useNavigate();
 
   const onClickCelebrityItem = () => {
-    navigate(`/Celebrity/${props.id}`, {
+    navigate(`/celebrity/${props.id}`, {
       state: props,
     });
   };
 
   return (
-    <div className='Celebrity-container' onClick={onClickCelebrityItem}>
-      <img src={IMG_BASE_URL + props.poster_path} alt='티비포스터' />
-      <div className='Celebrity-info'>
+    <div className='celebrity-container' onClick={onClickCelebrityItem}>
+      <img src={IMG_BASE_URL + props.profile_path} alt='프로필사진' />
+      <div className='celebrity-info'>
         <h4>{props.name}</h4>
-        <span>{props.vote_average}</span>
+        <span>{props.popularity}</span>
       </div>
     </div>
   );

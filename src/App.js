@@ -11,6 +11,7 @@ import MovieDetail from './pages/MovieDetail';
 import React from 'react';
 import TvDetail from './pages/TvDetail';
 import Celebrities from './pages/Celebrities';
+import CelebrityDetail from './pages/CelebrityDetail';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/movie' element={<Movies />} />
           <Route path='/movie/:title' element={<MovieDetail />} />
+          <Route path='/celebrity/:id' element={<CelebrityDetail />} />
           <Route path='/tv/:id' element={<TvDetail />} />
 
           <Route path='/tv' element={<Tvs />} />

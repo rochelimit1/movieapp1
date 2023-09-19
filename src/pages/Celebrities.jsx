@@ -20,9 +20,9 @@ export default function Celebrities() {
   }, []);
 
   return (
-    <div className='Celebrities-container'>
-      {CelebrityList.map((Celebrity) => (
-        <Celebrity key={Celebrity.id} {...Celebrity} />
+    <div className='celebrities-container'>
+      {CelebrityList.map((celebrity) => (
+        <Celebrity key={celebrity.id} {...celebrity} />
       ))}
     </div>
   );

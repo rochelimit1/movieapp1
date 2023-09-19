@@ -1,7 +1,4 @@
 @import 'reset.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 body {
   background-color: #fff;
@@ -88,16 +85,6 @@ body {
 .movie-info span {
   margin-left: 3px;
 }
-/*.tv-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.tv-container img {
-  width: 250px;
-  margin: 16px;
-}*/
 
 .tvs-container {
   display: flex;
@@ -158,4 +145,39 @@ body {
 
 .header-left-wrap li:not(:last-child) {
   margin-right: 16px; /* 각 리스트 아이템 사이에 공간을 주기 위해 */
+}
+
+.celebrities-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.celebrity-container {
+  cursor: pointer;
+  width: 250px;
+  margin: 16px;
+  background-color: #373b69;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.celebrity-container img {
+  max-width: 100%;
+}
+
+.celebrity-info {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.celebrity-info h4 {
+  margin: 0;
+}
+
+.celebrity-info span {
+  margin-left: 3px;
 }
