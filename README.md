@@ -41,7 +41,7 @@ https://www.canva.com/design/DAFu2KEvcSE/gWcNPCTV05-BG_by7MFO_A/view?utm_content
 
 ### 프로젝트 중 어려웠던 문제
 
----
+
 
  
 - 만들고 싶은 기능은 많지만 그에 한참 미달하는 나의 현 코딩수준에 맞춰 프로젝트 성과물을 타협 하는 것
@@ -52,7 +52,7 @@ https://www.canva.com/design/DAFu2KEvcSE/gWcNPCTV05-BG_by7MFO_A/view?utm_content
 
 ### 문제를 해결한 방안
 
----
+
 
 - 1차적으로 선생님께 api 불러오는 방법에 대한 설명을 들었고 구글링으로 해당 코드를 작성하는 방법을 검색했고
       이를 계속 대입해가며 에러를 수정해 나갔고 오랜 시간이 걸렸지만 결국 출력코드의 대소문자가 틀렸음을 확인 및 수정
@@ -62,7 +62,7 @@ https://www.canva.com/design/DAFu2KEvcSE/gWcNPCTV05-BG_by7MFO_A/view?utm_content
 
 ### 프로젝트를 하면서 깨달은 점
 
----
+
 
 
 - 주어진 시간안에 최선의 마무리를 하는 방법을 조금이나마 배운 것 같다
