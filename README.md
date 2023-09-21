@@ -15,7 +15,8 @@ https://www.canva.com/design/DAFu2KEvcSE/gWcNPCTV05-BG_by7MFO_A/view?utm_content
 ![티비메뉴](https://github.com/rochelimit1/movieapp1/assets/138188520/012a5c9e-9ef4-480f-a57f-f2cea85132c3)
 
 - 인물리스트
-![인물메뉴](https://github.com/rochelimit1/movieapp1/assets/138188520/436237f7-4583-4e1b-8fac-54301ee8f7fc)
+![capture_인물메뉴](https://github.com/rochelimit1/movieapp1/assets/138188520/24a8ff73-cfb3-47c4-afbe-ca69195e1902)
+
 
 - 영화디테일
 ![영화설명란](https://github.com/rochelimit1/movieapp1/assets/138188520/e9e814d7-cc58-4f0a-b73f-eda3456ddf30)
@@ -27,7 +28,8 @@ https://www.canva.com/design/DAFu2KEvcSE/gWcNPCTV05-BG_by7MFO_A/view?utm_content
 ![인물설명란(자동번역)](https://github.com/rochelimit1/movieapp1/assets/138188520/c1bbb043-b205-4648-bef9-b925b8f593f2)
 
 - 검색결과창
-![검색결과창](https://github.com/rochelimit1/movieapp1/assets/138188520/d940d22c-07de-47c7-b243-2b358047da33)
+![capture_검색페이지](https://github.com/rochelimit1/movieapp1/assets/138188520/69628883-d08a-4e57-80bd-5882ba24a460)
+
 
 
 
