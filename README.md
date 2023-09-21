@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 영화소개 웹 만들기
 
-[This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).](https://www.canva.com/design/DAFvCWqAS6o/Q_U_QOPemfrmVdHSpw7O6g/edit?utm_content=DAFvCWqAS6o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 
 ## Available Scripts
 
