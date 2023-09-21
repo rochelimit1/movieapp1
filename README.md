@@ -1,6 +1,8 @@
+
+https://github.com/rochelimit1/movieapp1/assets/138188520/5dce6761-3f93-40e0-b28f-7f2dad1fe71f
 # 영화소개 웹 만들기
 
-![Uploading 제목 없는 디자인.gif…]()
+
 
 
 ## Available Scripts
