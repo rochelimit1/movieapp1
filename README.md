@@ -1,7 +1,6 @@
-
-https://github.com/rochelimit1/movieapp1/assets/138188520/5dce6761-3f93-40e0-b28f-7f2dad1fe71f
 # 영화소개 웹 만들기
 
+![홈화면](https://github.com/rochelimit1/movieapp1/assets/138188520/3bad9bfe-fbc6-431f-9b24-d5feb21591ab)
 
 
 
