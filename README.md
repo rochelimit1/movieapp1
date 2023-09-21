@@ -26,6 +26,8 @@
 - 검색결과창
 ![검색결과창](https://github.com/rochelimit1/movieapp1/assets/138188520/d940d22c-07de-47c7-b243-2b358047da33)
 
+https://www.canva.com/design/DAFu2KEvcSE/gWcNPCTV05-BG_by7MFO_A/view?utm_content=DAFu2KEvcSE&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
+
 ## USING
 - react
 - react-router-dom
@@ -34,9 +36,6 @@
 - firebase
 - tmdb api
 
-### Page & Function
-- 홈화면 영화 tv 인물 검색창 구현
-- 영화정보는 movieDummy.js 파일에 더미데이터를 불러와서 적용
-- tv와 인물정보는 tmdb 사이트의 api를 활용
-- 
+### 느낀점
+
  
