@@ -12,6 +12,7 @@ import React from 'react';
 import TvDetail from './pages/TvDetail';
 import Celebrities from './pages/Celebrities';
 import CelebrityDetail from './pages/CelebrityDetail';
+import SearchPage from './components/SearchPage';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='/tv' element={<Tvs />} />
           <Route path='/person' element={<Celebrities />} />
           <Route path='/*' element={<NotFound />} />
+          <Route path='/search/:keyword' element={<SearchPage />} />
         </Routes>
       </BrowserRouter>
     </div>

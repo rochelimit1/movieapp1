@@ -1,7 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Header() {
+  const [searchKeyword, setSearchKeyword] = useState('');
+  const navigate = useNavigate();
+
+  const onSearchChange = (e) => {
+    setSearchKeyword(e.target.value);
+  };
+
+  const onSearchSubmit = (e) => {
+    e.preventDefault();
+    navigate(`/search/${searchKeyword}`);
+  };
+
   return (
     <div className='header-container'>
       <div className='header-wrap'>
@@ -33,11 +45,27 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link className='header-nav-item' to='person'>
+              <Link className='header-nav-item' to='/person'>
                 인물
               </Link>
             </li>
+
+            {/* 검색창 추가 */}
           </ul>
+
+          {/* 검색 폼 */}
+          <form
+            onSubmit={onSearchSubmit}
+            style={{ display: 'flex', alignItems: 'center' }}
+          >
+            <input
+              type='text'
+              placeholder='영화 검색...'
+              value={searchKeyword}
+              onChange={onSearchChange}
+            />
+            <button type='submit'>검색</button>
+          </form>
         </div>
       </div>
     </div>
