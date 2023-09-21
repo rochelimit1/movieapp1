@@ -1,5 +1,5 @@
 # 영화소개 웹 만들기
-
+- 소개영상
 https://www.canva.com/design/DAFu2KEvcSE/gWcNPCTV05-BG_by7MFO_A/view?utm_content=DAFu2KEvcSE&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
 
 - 홈화면
